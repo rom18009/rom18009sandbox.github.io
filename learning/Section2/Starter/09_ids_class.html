@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Div, span, id and class</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Main Header ID (only 1 main-header ID on this page) -->
+    <div id="main-header">
+      <h1>My Website</h1>
+      <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- shortcut for div # then name of id and tab (ie #about tab) -->
+    <!-- Classes can be used multiple times on a site for styling (notice about and contact using the style.css) -->
+    <div id="about" class="card">
+      <h3>About</h3>
+      <!-- DIV or p are block elements, Span is an inline element -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat
+        voluptate consequatur <span class="enhance">voluptates praesentium ea maxime pariatur, nulla
+        neque magnam tempore quis, cum necessitatibus?</span> Voluptas vel cumque
+        corporis consequuntur nisi voluptate, voluptatibus facere distinctio
+        ratione inventore quae harum vero facilis rerum.
+      </p>
+    </div>
+
+    <div id="Contact" class="card">
+      <h3>Contact Me</h3>
+      <ul>
+        <li>Address: 50 Main St., Boston MA</li>
+        <li>Phone: (555) 254-7894</li>
+        <li>Email: me@domain.com</li>
+      </ul>
+    </div>
+
+    <div id="footer">
+      <p>Copyright &copy; 2021</p>
+    </div>
+  </body>
+</html>
