@@ -1,3 +1,39 @@
+
+/* Element Selectors */
+body {
+  background-color: #333;
+}
+
+/* . is for classes */
+h2.primary-heading {
+  font-weight: bolder;
+  color: red;
+}
+
+/* # is for IDs */
+
+#welcome {
+  background-color: #f4f4f4;
+}
+
+#about {
+  background-color: honeydew;
+  color: blue;
+}
+
+/* Multiple Selectors with a comma*/
+
+#welcome, #about {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* Nested Selector */
+#welcome p {
+  font-size: 22px;
+}
+
 h3 {
   color: blue;
 }
