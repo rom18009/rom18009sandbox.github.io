@@ -2,23 +2,38 @@
 /* Element Selectors */
 body {
   background-color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
 }
 
 /* . is for classes */
 h2.primary-heading {
   font-weight: bolder;
   color: red;
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 /* # is for IDs */
 
 #welcome {
   background-color: #f4f4f4;
+  font-size: 32px;
+}
+
+#welcome p span {
+  font-weight: bold;
 }
 
 #about {
   background-color: honeydew;
   color: blue;
+}
+
+#about p span {
+  font-style: italic;
+  color: black;
 }
 
 /* Multiple Selectors with a comma*/
@@ -34,6 +49,17 @@ h2.primary-heading {
   font-size: 22px;
 }
 
+/* Color Name */
+h1 {
+  color: red;
+}
+
+/* RGB */
+h2 {
+  color:rgb(255,0,0);
+}
+
+/* HEX */
 h3 {
-  color: blue;
+  color: #ff0000;
 }
