@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Flex Align</title>
   <style>
-    #container {
+    #flex-container {
       background: #555;
       display: flex;
       flex-wrap: wrap;
+      flex-direction: row;
       /* Align items horizontal */
       justify-content: space-evenly;
       /*  
@@ -23,6 +24,7 @@
         */
         height: 600px;
         /* Align items vertical (must be height) */
+
         align-items: baseline;
         /*  
             OPTIONS:
@@ -42,11 +44,15 @@
             space-between
             space-around
             stretch
+
+            flex: grow shrink basis
+            ie. flex: 1 0 200px
+            flex: 1; 
         */
     }
 
     .item-1 {
-      order: 3;
+      order: 1;
     }
 
     .item-2 {
@@ -64,7 +70,7 @@
     }
 
     .item-3 {
-      order: 1;
+      order: 3;
     }
     
     .item {
@@ -74,14 +80,28 @@
         padding: 1rem;
         margin: 0.5rem;
         flex-basis: 200px;
+        border-radius: 10px;
       }
   </style>
 </head>
 <body>
-  <div id="container">
+  <div id="flex-container">
     <div class="item item-1"><h3>Item 1</h3></div>
     <div class="item item-2"><h3>Item 2</h3></div>
     <div class="item item-3"><h3>Item 3</h3></div>
+    <!-- <div class="item item-4"><h3>Item 4</h3></div>
+    <div class="item item-5"><h3>Item 5</h3></div>
+    <div class="item item-6"><h3>Item 6</h3></div>
+    <div class="item item-7"><h3>Item 7</h3></div>
+    <div class="item item-8"><h3>Item 8</h3></div>
+    <div class="item item-9"><h3>Item 9</h3></div>
+    <div class="item item-10"><h3>Item 10</h3></div>
+    <div class="item item-11"><h3>Item 11</h3></div>
+    <div class="item item-12"><h3>Item 12</h3></div>
+    <div class="item item-13"><h3>Item 13</h3></div>
+    <div class="item item-14"><h3>Item 14</h3></div>
+    <div class="item item-15"><h3>Item 15</h3></div>
+    <div class="item item-16"><h3>Item 16</h3></div> -->
   </div>
 </body>
 </html>
