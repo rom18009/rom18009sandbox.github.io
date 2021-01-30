@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        /* p {
+            background-color: rgb(207, 232, 220);
+            border: 2px solid rgb(79, 185, 227);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        } */
+
+        /* relative positioning */
+
+        /* .positioned {
+            position: relative;
+            background: rgba(255, 84, 104, .3);
+            border: 2px solid rgb(255, 84, 104);
+            top: 30px;
+            left: 30px;
+        }  */
+
+        /* absolute positioning */
+
+        /* .positioned {
+            position: absolute;
+            background: rgba(255, 84, 104, .3);
+            border: 2px solid rgb(255, 84, 104);
+            top: 30px;
+            left: 30px;
+        } */
+
+        /* fixed positionng */
+        /* .positioned {
+            position: fixed;
+            top: 30px;
+            left: 30px;
+            background: rgba(255, 84, 104, .3);
+            border: 2px solid rgb(255, 84, 104);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        } */
+
+        /* sticky positioning */
+        /* .positioned {
+            position: sticky;
+            top: 30px;
+            left: 30px;
+        }
+
+        .positioned {
+            background: rgba(255, 84, 104, .3);
+            border: 2px solid rgb(255, 84, 104);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        } */
+
+        /* table layout */
+        /* html {
+            font-family: sans-serif;
+        }
+
+        form {
+            display: table;
+            margin: 0 auto;
+        }
+
+        form div {
+            display: table-row;
+        }
+
+        form label,
+        form input {
+            display: table-cell;
+            margin-bottom: 10px;
+        }
+
+        form label {
+            width: 200px;
+            padding-right: 5%;
+            text-align: right;
+        }
+
+        form input {
+            width: 300px;
+        }
+
+        form p {
+            display: table-caption;
+            caption-side: bottom;
+            width: 300px;
+            color: #999;
+            font-style: italic;
+        } */
+
+        /* multi-column layout */
+        .container {
+            column-width: 200px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- basic intro  -->
+    <!-- <h1>Positioning</h1>
+
+    <p>I am a basic block level element.</p>
+    <p class="positioned">I am a basic block level element.</p>
+    <p>I am a basic block level element.</p> -->
+
+    <!-- fixed positoning -->
+    <!-- <h1>Fixed positioning</h1>
+
+    <div class="positioned">Fixed</div>
+
+    <p>Paragraph 1.</p>
+    <p>Paragraph 2.</p>
+    <p>Paragraph 3.</p> -->
+
+    <!-- sticky positioning     -->
+    <!-- <h1>Sticky positioning</h1>
+
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsam alias aliquam repellat rerum, voluptatum
+        incidunt dolorem accusantium tempora assumenda recusandae consequuntur sapiente minus. Natus architecto
+        laudantium tenetur eum, deserunt placeat odit iusto consequuntur excepturi rerum nulla est, voluptatibus magnam.
+        Assumenda corporis, explicabo quod ab sunt tempora reiciendis vero iste? Aspernatur et accusamus aliquid iusto
+        quod, dicta dolores tenetur! In dignissimos ab amet ullam numquam nostrum id quas? Aliquam, in.</p>
+
+    <div class="positioned">Sticky</div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia optio esse, dolor dolorem et architecto! Cupiditate
+        nobis praesentium adipisci ipsam reprehenderit deleniti laborum. Ea earum minima a iste aut id doloremque
+        veniam, maiores magni rerum. Tempora molestiae consequatur autem dolores! Dolorem aut quos corporis sint error
+        quisquam vel architecto, ex iure. Aperiam ducimus laboriosam aspernatur fugiat asperiores commodi, pariatur
+        voluptates eaque suscipit qui rem cum quia aut animi voluptatibus quasi repellat error fuga ratione sint rerum
+        dolorem autem reiciendis. Dolorem autem assumenda perferendis rem dolorum, mollitia deserunt vero nemo
+        voluptates.</p>
+
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt assumenda commodi incidunt voluptatum,
+        perspiciatis culpa repellendus rem est aperiam sint, nobis voluptas modi! Similique nostrum quaerat architecto
+        sint cumque voluptate, impedit, enim ducimus eius ratione consectetur laborum, illo culpa? Repellat sunt quo
+        illo perspiciatis. Ab voluptatibus, molestias ducimus mollitia porro laudantium expedita consequuntur blanditiis
+        praesentium tempora velit odit illum ad commodi repellendus voluptatum quas! Aut sapiente fugiat aliquid ratione
+        dolorum commodi tempora recusandae error mollitia aperiam deserunt corrupti quaerat quae, dicta officia dolorem,
+        sint id eius distinctio non molestiae at itaque quas. Officiis tenetur nostrum molestias sunt obcaecati facilis.
+    </p> -->
+
+    <!-- table
+
+    <form>
+        <p>First of all, tell us your name and age.</p>
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname">
+        </div>
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname">
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input type="text" id="age">
+        </div>
+    </form> -->
+
+    <div class="container">
+        <h1>Multi-column layout</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed vero obcaecati facilis natus earum numquam sunt
+            quis dicta quam optio quisquam exercitationem temporibus corporis commodi id ab unde officia, voluptatibus,
+            praesentium atque. Neque error laborum modi eaque! Modi fugiat quis illum delectus provident et officia
+            adipisci. Eius, repudiandae laudantium nesciunt id at cum laborum cupiditate deleniti illum aliquam
+            inventore iste voluptas, quod optio architecto est. Aliquam est unde eaque voluptatibus possimus
+            necessitatibus quis numquam laborum?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto repudiandae doloribus accusantium animi
+            pariatur harum, deserunt, odio eveniet voluptatibus temporibus quidem accusamus nemo perferendis natus
+            asperiores incidunt, fugit sapiente quis saepe? Commodi vitae, officiis explicabo corrupti recusandae
+            laboriosam deleniti animi alias numquam impedit! Quae error ratione soluta itaque veniam adipisci doloribus
+            dolores esse cumque sint labore nulla, cupiditate officia eaque, inventore tempore non, quas necessitatibus?
+        </p>
+
+    </div>
+
+</body>
+
+</html>
