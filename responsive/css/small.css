@@ -81,6 +81,13 @@ main {
     min-height: 10rem;
 }
 
+main figure.myphoto {
+    width: 15%;
+}
+
+main figure.myphoto img {
+    width: 100%;
+}
 
 /*----------- FOOTER --------------*/
 footer {

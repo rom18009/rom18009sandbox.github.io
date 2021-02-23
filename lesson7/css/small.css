@@ -110,6 +110,7 @@ h2 {
     margin: auto;
 }
 
+/* Weather Summary */
 .weathersummary {
     font-family: 'Cardo', serif;
     color: #000000;
@@ -140,10 +141,12 @@ h2 {
     text-align: left;
 }
 
+/* Forecast Area */
 .forecastdiv {
     display: none;
 }
 
+/* Article Area */
 article {
     font-family: 'Cardo', serif;
     border: 1px solid black;
@@ -176,6 +179,7 @@ h3 {
     text-align: center;
 }
 
+/* Contact Area */
 .contactdiv {
     background-color: #FED766;
     padding: 2em;
@@ -199,7 +203,8 @@ h3 {
     margin: 1em;
 }
 
-.lazyloadgallery {
+/* Gallery Load */
+.galleryload {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -210,30 +215,31 @@ h3 {
     padding: 1.8em 10em;
 }
 
-.lazyloadgallery img {
+.galleryload img {
     filter: blur(0em);
     transition: 0.5s;
 }
 
-.lazyloadgallery img[data-src] {
+.galleryload img[data-src] {
     filter: blur(0.2em);
 }
 
-.lazyloadgallery figure {
+.galleryload figure {
     text-align: center;
     margin: 0;
 }
 
-.lazyloadgallery figcaption {
+.galleryload figcaption {
     background-color: #dddddd;
     padding: 1em;
     margin: 0;
 }
 
-.lazyloadgallery h2 {
+.galleryload h2 {
     text-align: center;
 }
 
+/* Footer */
 footer {
     align-items: center;
     text-align: center;

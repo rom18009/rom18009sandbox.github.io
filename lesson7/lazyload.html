@@ -12,7 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/lazyloading.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="manifest" href="images/site.webmanifest">
 
 
@@ -23,27 +25,26 @@
         <h1>Lesson7 - Progressive Loading of Images / Lazy Loading</h1>
     </header>
     <main>
-        <picture>
-            <img data-src="images/cloudy.jpg" src="images/placeholder.jpg" alt="Dark clouds over farm">
-        </picture>
-        <picture>
-            <img data-src="images/rainbow.jpg" src="images/placeholder.jpg" alt="Bright rainbow in the mountains">
-        </picture>
-        <picture>
-            <img data-src="images/stormy.jpg" src="images/placeholder.jpg"
-                alt="Stormy clouds over green fields">
-        </picture>
-        <picture>
-            <img data-src="images/colorful.jpg" src="images/placeholder.jpg"
-                alt="Red colorful clouds with reflextion in water">
-        </picture>
-        <picture>
-            <img data-src="images/lightning.jpg" src="images/placeholder.jpg"
-                alt="Large lighting strike at night">
-        </picture>
-        <picture>
-            <img data-src="images/hotair.jpg" src="images/placeholder.jpg" alt="Colorful hotair balloon in the sky">
-        </picture>
+        <div class="lazyload">
+            <picture>
+                <img src="images/img_placeholder.jpg" data-src="images/img_rainbow.jpg" alt="Bright rainbow in the mountains">
+            </picture>
+            <picture>
+                <img src="images/img_placeholder.jpg" data-src="images/img_cloudy.jpg" alt="Dark clouds over farm">
+            </picture>
+            <picture>
+                <img src="images/img_placeholder.jpg" data-src="images/img_stormy.jpg" alt="Stormy clouds over green fields">
+            </picture>
+            <picture>
+                <img src="images/img_placeholder.jpg" data-src="images/img_hotair.jpg" alt="Colorful hotair balloon in the sky">
+            </picture>
+            <picture>
+                <img src="images/img_placeholder.jpg" data-src="images/img_colorful.jpg" alt="Red colorful clouds with reflextion in water">
+            </picture>
+            <picture>
+                <img src="images/img_placeholder.jpg" data-src="images/img_lightning.jpg" alt="Large lighting strike at night">
+            </picture>
+        </div>
     </main>
 
 </body>
@@ -55,8 +56,8 @@
 
 
 
-<script src='js/longdates.js'></script>
-<script src='js/lazyload.js'></script>
+<script src="js/longdates.js"></script>
+<script src="js/lazyload.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 <script>
     WebFont.load({
